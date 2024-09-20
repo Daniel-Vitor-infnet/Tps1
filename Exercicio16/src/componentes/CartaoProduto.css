@@ -1,0 +1,41 @@
+.cartao-produto {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .cartao-produto:hover {
+    transform: scale(1.05);
+  }
+  
+  .imagem-produto {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .preco-produto {
+    font-weight: bold;
+    font-size: 18px;
+    color: #28a745;
+  }
+  
