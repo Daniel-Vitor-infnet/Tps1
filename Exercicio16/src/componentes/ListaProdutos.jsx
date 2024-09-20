@@ -1,4 +1,6 @@
 import './CartaoProduto.css';
+import CartaoProduto from './CartaoProduto.jsx';
+
 
 const produtos = [
   {
